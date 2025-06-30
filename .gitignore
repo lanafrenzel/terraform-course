@@ -1,24 +1,3 @@
-# Ignore Terraform state files
+.terraform
 *.tfstate
 *.tfstate.backup
-
-# Ignore Terraform crash logs
-crash.log
-
-# Ignore the .terraform directory (contains large provider binaries)
-.terraform/
-
-# Ignore Terraform dependency lock file (optional)
-.terraform.lock.hcl
-
-# Ignore local override files
-*.tfvars
-*.tfvars.json
-
-# Python virtual environments (if any)
-venv/
-.venv/
-
-# OS-specific
-.DS_Store
-.terraform/
